@@ -1,6 +1,5 @@
 -- 引入依赖
 local wezterm = require 'wezterm'
-local screen = require 'utils.screen'
 
 return function(config)
     -- 基础配置：去除 windows 原生窗口，使用 wezterm 自带窗口
