@@ -25,6 +25,7 @@ return function(config)
     -- 当 true（默认值）时，当向终端输入时，将自动滚动到输入行。
     -- config.scroll_to_bottom_on_input = false
 
+    -- 使用 JetBrains Mono 作为字体
     config.font = wezterm.font('JetBrains Mono', {weight="Medium", italic=false})
     config.font_size = 12.0
 
